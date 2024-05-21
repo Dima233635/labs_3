@@ -1,0 +1,29 @@
+ЛАБА 1 
+
+// const getUserData = () => {
+//   const name = prompt("Введите ваше имя:");
+//   const age = parseInt(prompt("Введите ваш возраст:"));
+
+//   return { name, age };
+// };
+
+// // Функция для обработки возраста пользователя и отображения соответствующего сообщения
+// const handleAge = () => {
+//   const { name, age } = getUserData();
+
+//   if (age < 18) {
+//     alert("You are not allowed to visit this website");
+//   } else if (age >= 18 && age <= 22) {
+//     // const confirmResult = confirm("Are you sure you want to continue?");
+//     if (confirmResult) {
+//       alert(`Welcome, ${name}`);
+//     } else {
+//       alert("You are not allowed to visit this website");
+//     }
+//   } else {
+//     alert(`Welcome, ${name}`);
+//   }
+// };
+
+// Вызов функции для обработки возраста пользователя
+// handleAge();

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Rendering</title>
+</head>
+
+<body>
+    <ul id="list"></ul>
+
+    <script>
+        function renderList(array) {
+            const listElement = document.getElementById("list");
+            const listItems = array.map(item => `<li>${item}</li>`).join("");
+            listElement.innerHTML = listItems;
+        }
+
+        const array1 = ['hello', 'world', 'Kiev', 'Kharkiv', 'Odessa', 'Lviv'];
+        const array2 = ['1', '2', '3', 'sea', 'user', 23];
+
+        renderList(array1);
+        renderList(array2);
+    </script>
+</body>
+
+</html>
